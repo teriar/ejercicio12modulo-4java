@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/imagenfondo"
-    tools:context=".MainActivity">
+    tools:context=".MenuActivity">
 
-    <Button
-        android:id="@+id/buttonFood"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#C35858"
-        android:text="Quieres Comer"
+    <ListView
+        android:id="@+id/ListViewMenu"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
